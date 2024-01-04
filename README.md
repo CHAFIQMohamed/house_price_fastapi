@@ -25,7 +25,10 @@ bash
 Copy code
 uvicorn app:app --reload --port 8000
 Access the Web Interface:
-Open a web browser and go to http://localhost:8000. You will find two sections for real estate and furniture price prediction![Screenshot (101)](https://github.com/CHAFIQMohamed/house_price_fastapi/assets/76255423/c01e8a35-1f83-4b87-b847-23214b1f5b2b)
+Open a web browser and go to http://localhost:8000. You will find two sections for real estate and furniture price prediction
+![Screenshot (102)](https://github.com/CHAFIQMohamed/house_price_fastapi/assets/76255423/6f14ccc6-cbb6-4d10-b818-7746441093c1)
+
+![Screenshot (101)](https://github.com/CHAFIQMohamed/house_price_fastapi/assets/76255423/c01e8a35-1f83-4b87-b847-23214b1f5b2b)
 .
 
 
