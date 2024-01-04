@@ -3,7 +3,7 @@ Overview
 This project demonstrates the deployment of machine learning models for predicting prices in the real estate and furniture markets using FastAPI. The models are trained in a Jupyter notebook, and the trained models are saved in a .pkl file. The FastAPI application is then created to consume these models and provide predictions through a user-friendly web interface.
 
 Project Structure
-Notebooks: The notebooks directory contains Jupyter notebooks used for data exploration, preprocessing, and model training. The notebooks are named real_estate_model.ipynb and furniture_model.ipynb.
+Notebooks: The notebooks directory contains Jupyter notebooks used for data exploration, preprocessing, and model training. The notebooks are named housing-price-with-eda-and-linear-approach.ipynb and housing-price-with-eda-and-linear-approach.ipynb.
 
 Models: The models directory holds the serialized .pkl files containing the trained machine learning models. The models are named housse_model.pkl for real estate prediction and furniture_model.pkl for furniture price prediction.
 
@@ -25,7 +25,9 @@ bash
 Copy code
 uvicorn app:app --reload --port 8000
 Access the Web Interface:
-Open a web browser and go to http://localhost:8000. You will find two sections for real estate and furniture price prediction.
+Open a web browser and go to http://localhost:8000. You will find two sections for real estate and furniture price prediction![Screenshot (101)](https://github.com/CHAFIQMohamed/house_price_fastapi/assets/76255423/c01e8a35-1f83-4b87-b847-23214b1f5b2b)
+.
+
 
 Submit Predictions:
 Fill in the required input fields in the provided forms and click the "Predict" button to get the model predictions.
